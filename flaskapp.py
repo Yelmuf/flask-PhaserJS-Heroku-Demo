@@ -1,7 +1,7 @@
 from flask import *
 
 app = Flask(__name__)
-app.config.from_pyfile('flaskapp.cfg')
+#app.config.from_pyfile('flaskapp.cfg') # openshift configs
 
 
 @app.route('/')
